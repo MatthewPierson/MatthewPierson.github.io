@@ -1,0 +1,142 @@
+/* This is the link to the font so i dont lose it https://fonts.google.com/specimen/Inconsolata*/
+body {
+    
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    background-color: #282a36;
+	background-image: url(img/background.png);
+    
+}
+
+a {
+	
+	color: #33cc33;
+}
+
+p {
+	color: #33cc33;
+	font-size: 18px;
+	text-align: left;
+	
+}
+#title  {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: black;
+    color: #33cc33;
+    padding-bottom: 10px;
+    padding-top: 10px;
+	background-image: url(img/background.png);
+	font-size: 16px;
+}
+
+#text_container {
+	margin: auto; 
+	margin-top: 5px;
+	margin-left: 658px;
+	max-width: 1150px;  
+	max-height: 900px;
+	padding-left: 10px;
+	padding-right: 20px;
+	background-color: #212a2f;
+	border: 1px solid #ddd;
+}
+
+#background		{
+	
+	background-image: url(img/background.png);
+}
+
+img {
+	border: 1px solid #ddd;
+  	border-radius: 4px;
+  	padding: 5px;
+  	width: 550px;
+	height: 300px;
+	
+}
+
+#img1    {
+	position: absolute; 
+	top: 100px;
+	left: 40px;
+	background-color: #282a36
+}
+#img2    {
+	position: absolute; 
+	top: 500px;
+	left: 40px;
+	background-color: #282a36
+}
+#img3    {
+	position: absolute; 
+	top: 500px;
+	left: 658px;
+	background-color: #282a36
+}
+#img4    {
+	position: absolute; 
+	top: 500px;
+	left: 1276px;
+	background-color: #282a36
+}
+
+#link1:hover {
+  	box-shadow: 0 0 2px 2px rgba(0, 140, 160, 0.5);
+}
+
+#link2:hover {
+  	box-shadow: 0 0 2px 2px rgba(0, 140, 160, 0.5);
+}
+
+#link3:hover {
+  	box-shadow: 0 0 2px 2px rgba(0, 140, 160, 0.5);
+}
+
+
+#link1    {
+    position: absolute;
+    top: 950px;
+    left: 40px;
+    border: 3px solid #282a36;
+	color: #33cc33;
+	background-color: #282a36;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#link2    {
+    position: absolute;
+    top: 950px;
+    left: 658px;
+    border: 3px solid #282a36;
+	color: #33cc33;
+	background-color: #282a36;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#link3    {
+    position: absolute;
+    top: 950px;
+    left: 1276px;
+    border: 3px solid #282a36; 
+	color: #33cc33;
+	background-color: #282a36;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#bottom_text {
+	text-align: center;
+    margin-bottom: 0px;
+    margin-top: 140px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: #33cc33;
+	
+}

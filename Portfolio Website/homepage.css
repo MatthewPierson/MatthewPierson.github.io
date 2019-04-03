@@ -1,0 +1,101 @@
+/* This is the link to the font so i dont lose it https://fonts.google.com/specimen/Inconsolata*/
+body {
+    
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    background-color: #282a36;
+	background-image: url(img/background.png);
+    
+}
+
+a {
+	
+	color: #33cc33;
+}
+
+p {
+	color: #33cc33;
+	font-size: 16px;
+	text-align: left;
+	
+}
+#title  {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: black;
+    color: #33cc33;
+    padding-bottom: 10px;
+    padding-top: 10px;
+	background-image: url(img/background.png);
+}
+
+#text_container {
+	margin: auto; 
+	margin-left: 850px;
+	max-width: 1000px;  
+	max-height: 800px;
+	background-color: indianred;
+	border: 1px solid yellow;
+}
+
+#background		{
+	
+	background-image: url(img/background.png);
+}
+
+img {
+	border: 1px solid #ddd;
+  	border-radius: 4px;
+  	padding: 5px;
+  	width: 550px;
+	height: 300px;
+	
+}
+
+img:hover {
+  	box-shadow: 0 0 2px 2px rgba(0, 140, 160, 0.5);
+}
+
+#link1    {
+    position: absolute;
+    top: 160px;
+    left: 250px;
+    border: 3px solid #282a36;
+	color: #33cc33;
+	background-color: #282a36;
+	text-align: center;
+}
+
+#link2    {
+    position: absolute;
+    top: 555px;
+    left: 250px;
+    border: 3px solid #282a36;
+	color: #33cc33;
+	background-color: #282a36;
+	text-align: center;
+}
+
+#link3    {
+    position: absolute;
+    top: 160px;
+    right: 250px;
+    border: 3px solid #282a36; 
+	color: #33cc33;
+	background-color: #282a36;
+	text-align: center;
+}
+
+#link4    {
+    position: absolute;
+    top: 555px;
+    right: 250px;
+    border: 3px solid #282a36;
+	color: #33cc33;
+	background-color: #282a36;
+	text-align: center;
+}
