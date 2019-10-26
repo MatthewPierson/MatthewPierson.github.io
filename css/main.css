@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+body {
+  background: #E5E5E5;
+  background-color: rgba(245, 245, 245, 1);
+  overflow: hidden;
+  text-align: center;
+  padding: 0.3em;
+}
+
+.bigTitle {
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+  font-size: 4em;
+  color: black;
+  margin-bottom: 0.1em;
+  margin-left: 0.3em;
+}
+
+.beegyoshi {
+  display: inline-flex;
+  align-self: center;
+}
+
+.penguin {
+  display: inline-flex;
+  align-self: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.subTitle {
+  overflow: visible;
+  font-family: 'Arvo', sans-serif;
+  font-size: 1.4em;
+  color: black;
+  margin-top: 0.5em;
+  margin-bottom: 2vh;
+}
+
+.subTitle-container {
+  max-width: 70vw;
+  max-height: 70vh;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: #2E2E2C;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding: 2vh 2.5vw;
+  font-size: 1.2em;
+  border-radius: 0.8em;
+  font-family: 'Arvo', serif;
+}
+
+.button:hover {
+  background-color: rgba(46, 46, 44, 0.856);
+  animation: btn-hover 0.5s;
+  cursor: grab;
+}
+
+@keyframes btn-hover {
+  from { background-color: #2E2E2C }
+  to { background-color: rgba(46, 46, 44, 0.856) }
+}

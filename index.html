@@ -1,33 +1,57 @@
-<!DOCTYPE html>
 <html lang="en">
-	<body>
-		<head>
-		<style>
-			h1 {text-align:center;}
-			p {text-align:center;}
-			h2 {text-align:center;}
-			img {width: 25%;}
-		</style>
-	</head>
-		<h1>
-		My stuff
-		</h1>
-		<h2>
-		Beautiful website ay? I'll make it nice someday.
-		</h2>
-		<p>
-		<p><a href= "https://github.com/MatthewPierson/1033-OTA-Downgrader">10.3.3-OTA-Downgrader</p></a>
-		<p><a href= "https://github.com/MatthewPierson/iPhone-5s-OTA-Downgrade-Patches">10.3.3 OTA downgrade patches</p></a>
-		<p><a href= "https://github.com/MatthewPierson/ipwndfu_public">My ipwndfu_public fork with full s5l8965x and t8010 (from Cryptic) support</p></a>
-		<p><a href = "https://github.com/MatthewPierson/checkm8-nonce-setter">checkm8 nonce setter.</a></p>
-        <p>
-        Currently working on:
-        </p>
-        <p>Got more cool stuff coming I've yet to announce =)</p>
-		<p><a href = "https://twitter.com/mosk_i">My twitter</a></p>
-		<p><a href = "https://www.reddit.com/user/_Matty/">My reddit account</a></p>
-		<p><a href = "https://github.com/MatthewPierson">My github</a></p>
-		<p><img src = "cutie.png"></p>
-		<p><img src = "nice.png"></p>
-	</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Matty's Stuff">
+    <title>Matty's Stuff</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="logo-container">
+      <img src="img/cutie.png" alt="beeg-yoshi" class="beegyoshi" width="90vw">
+      <h1 class="bigTitle">Matty's Stuff</h1>
+    </div>
+		<div>
+	<p>&nbsp; </p>
+	</div>
+    <div class="subTitle-container">
+      <div class="subTitle">All my iOS/Hackintosh related projects and files.</div>
+	  <div class="subTitle">Site's HTML and CSS is modified from <a href = https://getzbra.com> Zebra's site.</a></div>
+	  <div class="subTitle">(Use Zebra instead of Cydia or Sileo btw)</div>
+    </div>
+	<div>
+	<p>&nbsp; </p>
+	</div>
+    <div>
+      <p class="button" id="button-downgrader">A7 10.3.3 OTA Downgrader</p>
+      <p class="button" id="button-github">My GitHub</p>
+    </div>
+	<div>
+      <p class="button" id="button-downgrader-patches">10.3.3 Downgrade Patches</p>
+      <p class="button" id="button-nonce-setter">Checkm8 based Nonce-Setter</p>
+    </div>   
+	<div>
+      <p class="button" id="button-ipwndfu">ipwndfu_public fork with iPad Air (s5l8965x) and t8010 (from Cryptic) support</p>
+    </div>
+		<div>
+      <p class="button" id="button-hackintosh">My EFI folders for my hackintosh laptops, both OpenCore and Clover</p>
+    </div>
+	<div>
+      <p class="button" id="button-twitter">My twitter</p>
+    </div>
+	<img src="img/nice.png" alt="shocked-penguin" class="penguin" width="350vw">
+  </body>
 </html>
+
+
+<script>
+  document.getElementById('button-github').onclick = () => window.location = "https://github.com/MatthewPierson";
+  document.getElementById('button-downgrader').onclick = () => window.location = "https://github.com/MatthewPierson/1033-OTA-Downgrader";
+  document.getElementById('button-downgrader-patches').onclick = () => window.location = "https://github.com/MatthewPierson/iPhone-5s-OTA-Downgrade-Patches";
+  document.getElementById('button-nonce-setter').onclick = () => window.location = "https://github.com/MatthewPierson/checkm8-nonce-setter";
+  document.getElementById('button-ipwndfu').onclick = () => window.location = "https://github.com/MatthewPierson/ipwndfu_public";
+  document.getElementById('button-hackintosh').onclick = () => window.location = "https://github.com/MatthewPierson/Hackintosh_Files";  
+  document.getElementById('button-twitter').onclick = () => window.location = "https://twitter.com/mosk_i";
+</script>
