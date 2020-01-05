@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="iOS Downgrade Chart">
+    <title>SEP Information</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+   </head>
+    <body>
+      <div class="logo-container">
+        <img src="../img/cutie.png" alt="beeg-yoshi" class="beegyoshi" width="90vw">
+        <h1 class="bigTitle">SEP Information</h1>
+      </div>
+      <h2 id="requirements">Basic Information:</h2>
+      <p style="font-size:x-large;">SEP (Secure Enclave) is the part of CPU which handles Data Protection, Touch-ID, Face-ID on A7 and newer devices.<br>SEP has its own OS called "SEP OS" which we have no control over, even with Checkm8.<br>You cannot boot/restore a device without a valid, signed SEP (at this stage) and restores will fail if a non-compatible SEP is used.</p>
+      <br>
+      <ul>
+      <li style="font-size: large;">Without a compatible SEP, you CANNOT downgrade.</li>
+      <li style="font-size: large;">12.4.4 SEP (A7/A8 devices) allows for downgrades to 11.3 and higher.</li>
+      <li style="font-size: large;">13.3 SEP (All other 64 Bit devices) allows for downgrades to 13.0 and higher.</li>
+      <li style="font-size: large;">13.3 SEP breaks Face-ID for relevant devices, Touch-ID however works fine all the way down to 13.0 (tested on a 6s).</li>
+      </ul>
+      <div>
+        <br>
+        <p class="button" id="button-home">Back Home</p>
+      </div>
+    </body>
+</html>
+
+<script>
+    document.getElementById('button-home').onclick = () => window.location = "https://MatthewPierson.github.io/ios_downgrades.html";
+  </script>
