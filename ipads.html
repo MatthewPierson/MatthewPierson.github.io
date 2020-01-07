@@ -18,8 +18,8 @@
 	<p>&nbsp; </p>
 	</div>
     <div class="subTitle-container">
-      <div class="subTitle">iPads</div>
-      <div class="subTitle">Information on which iPads can downgrade to what version and the methods to do said downgrade</div>
+      <h2 class="subTitle">iPads</h2>
+      <h2 class="subTitle">Information on which iPads can downgrade to what version and the methods to do said downgrade</h2>
 	<div>
 	<p>&nbsp; </p>
 	</div>
@@ -37,6 +37,17 @@
     <div>
       <p class="button" id="button-home">Back</p>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div>
+      <p class="button" id="button-background">Toggle Dark Mode</p>
+    </div>
 	
   </body>
 </html>
@@ -46,14 +57,13 @@
   document.getElementById('button-5').onclick = () => window.location = "https://MatthewPierson.github.io/devices/ipad/5.html";
   document.getElementById('button-6').onclick = () => window.location = "https://MatthewPierson.github.io/devices/ipad/6.html";
   document.getElementById('button-7').onclick = () => window.location = "https://MatthewPierson.github.io/devices/ipad/7.html";
-  document.getElementById('button-mini2').onclick = () => window.location = "https://MatthewPierson.github.io/devices/ipad/mini2.html";
-  document.getElementById('button-mini3').onclick = () => window.location = "https://MatthewPierson.github.io/devices/ipad/mini3.html";
-  document.getElementById('button-mini4').onclick = () => window.location = "https://MatthewPierson.github.io/devices/ipad/mini4.html";
-  document.getElementById('button-mini5').onclick = () => window.location = "https://MatthewPierson.github.io/devices/ipad/mini5.html";
-  document.getElementById('button-air').onclick = () => window.location = "https://MatthewPierson.github.io/devices/ipad/air.html";
-  document.getElementById('button-air2').onclick = () => window.location = "https://MatthewPierson.github.io/devices/ipad/air2.html";
-  document.getElementById('button-air3').onclick = () => window.location = "https://MatthewPierson.github.io/devices/ipad/air3.html";
-  document.getElementById('button-home').onclick = () => window.location = "https://matthewpierson.github.io/ios_downgrades.html";
   document.getElementById('button-sep').onclick = () => window.location = "https://MatthewPierson.github.io/guides/sep.html";
   document.getElementById('button-futurerestore').onclick = () => window.location = "https://MatthewPierson.github.io/guides/futurerestore.html";
+  document.getElementById('button-home').onclick = () => window.location = "https://matthewpierson.github.io/ios_downgrades.html";
+  document.getElementById('button-background').onclick= () => toggleDarkMode();
+  function toggleDarkMode() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    } 
 </script>
+

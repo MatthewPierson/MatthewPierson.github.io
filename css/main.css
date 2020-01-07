@@ -6,13 +6,19 @@ body {
   overflow: hidden;
   text-align: center;
   padding: 0.3em;
+  background-color: black;
+  color: aliceblue;
+}
+
+.dark-mode {
+  background-color: rgba(245, 245, 245, 1);
+  color: black;
 }
 
 .bigTitle {
   font-family: 'Arvo', serif;
   font-weight: bold;
   font-size: 4em;
-  color: black;
   margin-bottom: 0.1em;
   margin-left: 0.3em;
 }
@@ -36,7 +42,6 @@ body {
   overflow: visible;
   font-family: 'Arvo', sans-serif;
   font-size: 1.4em;
-  color: black;
   margin-top: 0.5em;
   margin-bottom: 2vh;
 }
