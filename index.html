@@ -57,6 +57,7 @@
   document.getElementById('button-twitter').onclick = () => window.location = "https://twitter.com/mosk_i";
   document.getElementById('button-background').onclick= () => toggleDarkMode();
   function setState() {
+    var element = document.body;
     var check = localStorage.getItem('darkmodeState')
       if (check === null) {
         g = 0;
