@@ -14,23 +14,38 @@
         <img src="../img/cutie.png" alt="beeg-yoshi" class="beegyoshi" width="90vw">
         <h1 class="bigTitle">Futurerestore Guide</h1>
       </div>
+      <h2 id="requirements">Basic Information:</h2>
+      <p style="font-size:large;">Futurerestore is a tool written by <a href="https://twitter.com/tihmstar" target="_blank">Tihmstar</a> which is used to downgrade/upgrade 64/32 Bit iOS devices to unsigned iOS versions using previously saved SHSH(2) files.</p>
+      <p style="font-size:large;">The versions that you can downgrade to are limited by what <a href="https://MatthewPierson.github.io/guides/sep.html" target="_blank">SEP</a> versions are currently signed, as the signed SEP must be compatible in order for the downgrade to work.<br>E.G iOS 12.4.4's SEP is compatible all the way down to 11.3 allowing for downgrades to 11.3 up to 12.4.4 for A7 and A8 devices that have 12.4.4's SEP signed.</p>
+      <p style="font-size: large;">Restores done with Futurerestore will typically be Untethered as they use a valid <a href=https://www.theiphonewiki.com/wiki/APTicket target="_blank">ApTicket</a> for the restore, however some 32 Bit downgrades use invalid ApTickets or ApTickets from other devices, which mean the device will need to be put into PWNDFU mode and tether booted.</p>
       <h2 id="requirements">Requirements</h2>
       <ol>
-      <li>A macOS machine (hackintosh or legit mac) or Linux machine</li>
-      <li>Futurerestore binary from <a href="https://github.com/tihmstar/futurerestore/releases" target="_blank">here</a></li>
-      <li>SHSH2 with a generator</li>
+      <li style="font-size: large;">A macOS machine (hackintosh or legit mac), Linux machine or Windows Machine (Windows is NOT reccomended)</li style="font-size: large;">
+      <li style="font-size: large;">Futurerestore binary from <a href="https://github.com/tihmstar/futurerestore/releases" target="_blank">here</a> or <a href=https://github.com/encounter/futurerestore/releases target="_blank">here (For Windows)</a></li style="font-size: large;">
+      <li style="font-size: large;">SHSH with a generator <a href=https://MatthewPierson.github.io/guides/generator.html target="_blank">(Check here for information on Generators)</a></li style="font-size: large;">
+      <li style="font-size: large;">IPSW file for the iOS version you want to restore to <a href="https://ipsw.me" target="_blank">(Download IPSW's from here)</a></li>
+      <li style="font-size: large;">Knowledge of what SEP version is currently signed.</li>
       </ol>
       <h2 id="instructions">Instructions</h2>
       <ol>
-      <li>Ensure that your generator has been set to match the generator found in your SHSH2 file (this can be done using various methods)</li>
-      <li>Connect device to computer in either Normal mode or Recovery mode</li>
-      <li>Run &quot;./futurerestore -t path/to/shsh --latest-sep --latest-baseband path/to/.ipsw&quot;</li>
-      <li>Wait for the restore to finish</li>
+      <li style="font-size: large;">Ensure that your generator has been set to match the generator found in your SHSH2 file <a href=https://MatthewPierson.github.io/guides/generator.html target="_blank">(Check here for information on Generators)</a></li>
+      <li style="font-size: large;">Connect device to computer in either Normal mode or Recovery mode</li>
+      <li style="font-size: large;">Run Futurerestore using one of the following methods:</li>
+      <br>
+        <ul type="a">
+          <li style="font-size: large;">If the latest signed SEP version is compatible with what iOS version you want to restore to then run: &quot;./futurerestore -t path/to/shsh --latest-sep --latest-baseband path/to/.ipsw&quot;</li>
+          <li style="font-size: large;">If you want to use an older but still signed SEP then run:&quot;./futurerestore -t path/to/shsh -s path/to/sep.im4p -m path/to/buildmanifest.plist -b path/to/baseband.bbfw -p path/to/buildmanifest.plist path/to/.ipsw&quot;</li>
+        </ul>
+      <br>
+      <br>
+      <li style="font-size: large;">Wait for the restore to finish</li style="font-size: large;">
+      <li style="font-size: large;">If you run into errors follow <a href="https://therealketo.github.io/futurerestore-guide/error-codes" target="_blank">this</a> and if that doesn't solve your issues then google the error code.</li>
       </ol>
       <h2>Done!</h2>
       <div>
         <br>
         <p class="button" id="button-sep">SEP Information</p>
+        <p class="button" id="button-generator">Generator Information</p>
       </div>
       <div>
         <br>
@@ -52,6 +67,7 @@
 <script>
     document.getElementById('button-home').onclick = () => window.location = "https://MatthewPierson.github.io/ios_downgrades.html";
     document.getElementById('button-sep').onclick = () => window.location = "https://MatthewPierson.github.io/guides/sep.html";
+    document.getElementById('button-generator').onclick = () => window.location = "https://MatthewPierson.github.io/guides/generator.html";
     document.getElementById('button-background').onclick= () => toggleDarkMode();
   function toggleDarkMode() {
       var element = document.body;

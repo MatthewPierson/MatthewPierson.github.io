@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../img/cutie.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="iOS Downgrade Chart">
+    <title>Generator Information</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+   </head>
+    <body>
+      <div class="logo-container">
+        <img src="../img/cutie.png" alt="beeg-yoshi" class="beegyoshi" width="90vw">
+        <h1 class="bigTitle">Generator Information</h1>
+      </div>
+      <h2 id="requirements">Basic Information:</h2>
+      <p style="font-size:large;">The generator is what the device uses to generate an ApNonce on each boot. ApNonce is part of what is used during restore to validate that the device is "allowed" to perform the restore.</p>
+      <p style="font-size:large;">SHSH saved with a generator can be used with Futurerestore to downgrade/upgrade to unsigned iOS versions. You can open the SHSH file in a text editor, search for "generator" and the key that contains a "0x........." string is the generator for your SHSH.</p>
+      <div class="logo-container">
+      <img src="../img/generator_example.png">
+      </div>
+      <p style="font-size: large;">The highlighted string is what you set on the device before restoring.</p>
+      <p style="font-size: large;">The method varies to set your generator, depending on what jailbreak you are using.<br><br>To set your generator with Unc0ver, open the apps in-app settings page, scroll down to the "Generator" text field, enter your generator, then run the jailbreak.<br>To set your generator with Chimera, open the app, scroll down and click on "Set Nonce", enter your generator and click set, then run the jailbreak.</p>
+      <p style="font-size: large;">To set your generaor with Checkra1n, add <a href="https://halo-michael.github.io/repo/" target="_blank">this repo</a> and install "Generator Auto Set", (if you want to set 0x1111111111111111 then stop here, it auto sets this on install) then open a terminal or SSH connection and run "setgenerator Your_Generator". E.G "setgenerator 0xa3c43c47f348882c" </p>
+      <p style="font-size: large;">For older jailbreaks, you need to use either the NVRAM method or app based method. <br>For the app based method, the following iOS versions are supported, <li><a href="https://github.com/Siguza/PhoenixNonce/releases" target="_blank">PhœnixNonce</a> for iOS 9.x</li>
+        <li><a href="https://julioverne.github.io/description.html?id=com.julioverne.nonceset" target="_blank">NonceSet</a> for iOS 10.x</li>
+        <li><a href="https://github.com/julioverne/NonceSet112" target="_blank">NonceSet112</a> for iOS 11 - 11.1.2</li>
+        <li><a href="https://github.com/GeoSn0w/GeoNonceSetter12/releases" target="_blank">GeoNonceSetter</a> for iOS 12 - 12.4</li>
+        </ul> </p>
+      <p style="font-size: large;">For the NVRAM method, you need a jailbreak with NVRAM unlocked (most jailbreaks do this). Open a terminal/SSH connection to your device and run "nvram com.apple.System.boot-nonce=your generator". E.G "nvram com.apple.System.boot-nonce=0xa3c43c47f348882c"<br>You can then run "nvram -p" to check if your generator was set.</p>
+      <br>
+        <p class="button" id="button-home">Back Home</p>
+      </div>
+      <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div>
+      <p class="button" id="button-background">Toggle Dark Mode</p>
+    </div>
+  </body>
+</html>
+
+<script>
+    document.getElementById('button-home').onclick = () => window.location = "https://MatthewPierson.github.io/ios_downgrades.html";
+    document.getElementById('button-background').onclick= () => toggleDarkMode();
+  function toggleDarkMode() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    } 
+  </script>

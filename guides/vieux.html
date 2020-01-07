@@ -14,21 +14,30 @@
         <img src="../img/cutie.png" alt="beeg-yoshi" class="beegyoshi" width="90vw">
         <h1 class="bigTitle">Vieux Guide</h1>
       </div>
+      <h2 id="requirements">Basic Information:</h2>
+      <p style="font-size:large;">Vieux is a tool written by <a href="https://twitter.com/mosk_i" target="_blank">me</a> which uses OTA signed firmwares to do full restores/downgrades to said signed versions.</p>
+      <p style="font-size:large;">The versions that you can downgrade to are limited by what versions are currently OTA signed, as the SHSH used in the restore are saved at the time of the restore.<br>A7 Devices have iOS 10.3.3 OTA signed for life, and various A5/A6 devices have iOS 8.4.1 and/or 6.1.3 signed for life, meaning those devices are able to always restore to those firmwares.</p>
+      <p style="font-size: large;">Restores done with Vieux are Untethered as they use a valid <a href=https://www.theiphonewiki.com/wiki/APTicket target="_blank">ApTicket</a> for the restore, however PWNDFU mode (64 Bit devices) or KDFU mode (32 Bit devices) is needed to perform the restore as the ApTicket is valid for the OTA firmware not the full restore firmware, but this is not an issue.</p>
+      
       <h2 id="requirements">Requirements</h2>
-      <ol>
-      <li>A macOS machine (hackintosh or legit mac)</li>
-      <li>Python 3.5 or higher</li>
-      <li>Copy of files from the <a href="https://github.com/MatthewPierson/Vieux" target="_blank">Vieux repo</a></li>
+      <ol type="i">
+      <li style="font-size: large;">A macOS machine (hackintosh or legit mac)</li>
+      <li style="font-size: large;"><a href="https://www.python.org/downloads/" target="_blank">Python 3.5</a> or higher</li style="font-size: large;">
+      <li style="font-size: large;">Copy of files from the <a href="https://github.com/MatthewPierson/Vieux" target="_blank">Vieux repo</a></li style="font-size: large;">
+      <li style="font-size: large;">The IPSW for the firmware you want to restore to</li style="font-size: large;">
+      <li style="font-size: large;"><b>(32 BIT DEVICES ONLY)</b> A jailbroken device, with OpenSSH installed (and working)</li style="font-size: large;">
       </ol>
       <h2 id="instructions">Instructions</h2>
       <ol>
-      <li>Run &quot;pip3 install -r requirments.txt&quot;</li>
-      <li>Connect device to computer in DFU mode (NOT PWNDFU MODE)</li>
-      <li>Run &quot;./vieux -i path/to/.ipsw&quot;</li>
-      <li>Follow the programs instructions when needed</li>
+      <li style="font-size: large;">"cd" into the downloaded "Vieux" folder &quot;cd path/to/folder&quot;</li style="font-size: large;">
+      <li style="font-size: large;">Run &quot;pip3 install -r requirments.txt&quot;</li style="font-size: large;">
+      <li style="font-size: large;">Connect device to computer in DFU mode (NOT PWNDFU MODE) for 64 Bit devices, or normal mode for 32 Bit devices</li style="font-size: large;">
+      <li style="font-size: large;">Run &quot;./vieux -i path/to/.ipsw&quot; - e.g. "./vieux -i /Users/matty/Downloads/iPhone_4.0_64bit_10.3.3_14G60_Restore.ipsw"</li style="font-size: large;">
+      <li style="font-size: large;">Follow the programs instructions when needed</li>
       </ol>
       <h2>Done!</h2>
       <div>
+      <h2>Report any errors/issues with Vieux <a href="https://github.com/MatthewPierson/Vieux/issues" target="_blank">here</a>, please use the given bug template.</h2>
         <br>
         <p class="button" id="button-home">Back Home</p>
       </div>
