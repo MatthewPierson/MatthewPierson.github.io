@@ -57,7 +57,21 @@
   document.getElementById('button-twitter').onclick = () => window.location = "https://twitter.com/mosk_i";
   document.getElementById('button-background').onclick= () => toggleDarkMode();
   function setState() {
-    var g = 0;
+    var check = localStorage.getItem('darkmodeState')
+      if (check === null) {
+        g = 0;
+        localStorage.setItem("darkmodeState",g);
+      }
+      if (check.includes("0")) { 
+        element.classList.toggle("dark-mode");
+        g = 1;
+        localStorage.setItem("darkmodeState",g);
+      }
+      if (check.includes("1")) { 
+        element.classList.toggle("dark-mode");
+        g = 0;
+        localStorage.setItem("darkmodeState",g);
+      }
   }
   function toggleDarkMode() {
       var element = document.body;
