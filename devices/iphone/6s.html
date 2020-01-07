@@ -82,6 +82,15 @@
             <br>
             <p class="button" id="button-home">Back Home</p>
           </div>
+          <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div>
+      <p class="button" id="button-background">Toggle Dark Mode</p>
+    </div>
         </body>
     </html>
     
@@ -89,4 +98,9 @@
     document.getElementById('button-home').onclick = () => window.location = "https://MatthewPierson.github.io/ios_downgrades.html";
     document.getElementById('button-sep').onclick = () => window.location = "https://MatthewPierson.github.io/guides/sep.html";
     document.getElementById('button-futurerestore').onclick = () => window.location = "https://MatthewPierson.github.io/guides/futurerestore.html";
+    document.getElementById('button-background').onclick= () => toggleDarkMode();
+  function toggleDarkMode() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    } 
     </script>
