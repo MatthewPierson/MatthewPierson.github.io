@@ -106,6 +106,7 @@ function checkState() {
         localStorage.setItem("darkmodeState",g);
       }
       if (check.includes("0")) { 
+        element.classList.toggle("dark-mode");
         g = 1;
         localStorage.setItem("darkmodeState",g);
       }
