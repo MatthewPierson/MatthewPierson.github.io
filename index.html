@@ -9,18 +9,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
-  <body>
+  <body onload="setState()">
     <div class="logo-container">
       <img src="img/cutie.png" alt="beeg-yoshi" class="beegyoshi" width="90vw">
       <h1 class="bigTitle">Matty's Stuff</h1>
     </div>
 		<div>
-	<p>&nbsp; </p>
+	<p>&nbsp;</p>
 	</div>
     <div class="subTitle-container">
       <div class="subTitle">All my iOS/Hackintosh related projects and files.</div>
 	  <div class="subTitle">Site's HTML and CSS is modified from <a href = https://getzbra.com> Zebra's (old) site.</a></div>
-	  <div class="subTitle">(Use Zebra instead of Cydia or Sileo btw)</div>
+	  <div class="subTitle">(Zebra's the best iOS package manager btw)</div>
     </div>
 	<div>
 	<p>&nbsp; </p>
@@ -56,8 +56,25 @@
   document.getElementById('button-github').onclick = () => window.location = "https://github.com/MatthewPierson";  
   document.getElementById('button-twitter').onclick = () => window.location = "https://twitter.com/mosk_i";
   document.getElementById('button-background').onclick= () => toggleDarkMode();
+  function setState() {
+    var g = 0;
+  }
   function toggleDarkMode() {
       var element = document.body;
-      element.classList.toggle("dark-mode");
+      var check = localStorage.getItem('darkmodeState')
+      if (check === null) {
+        g = 0;
+        localStorage.setItem("darkmodeState",g);
+      }
+      if (check.includes("0")) { 
+        element.classList.toggle("dark-mode");
+        g = 1;
+        localStorage.setItem("darkmodeState",g);
+      }
+      if (check.includes("1")) { 
+        element.classList.toggle("dark-mode");
+        g = 0;
+        localStorage.setItem("darkmodeState",g);
+      }
     } 
 </script>
