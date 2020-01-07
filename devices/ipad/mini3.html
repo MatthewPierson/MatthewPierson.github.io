@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../css/main.css">
    </head>
-    <body onload="checkState()">
+    <body>
       <div class="logo-container">
         <img src="../../img/cutie.png" alt="beeg-yoshi" class="beegyoshi" width="90vw">
         <h1 class="bigTitle">iOS Downgrade Chart</h1>
@@ -82,7 +82,7 @@
           <br>
           <p class="button" id="button-home">Back Home</p>
         </div>
-      </body onload="checkState()">
+      </body>
 </html>
 
 <script>
@@ -90,40 +90,8 @@
   document.getElementById('button-sep').onclick = () => window.location = "https://MatthewPierson.github.io/guides/sep.html";
   document.getElementById('button-futurerestore').onclick = () => window.location = "https://MatthewPierson.github.io/guides/futurerestore.html";
   document.getElementById('button-background').onclick= () => toggleDarkMode();
-  function checkState() {
-      var element = document.body;
-      var check = localStorage.getItem('darkmodeState')
-      if (check === null) {
-        g = 0;
-        localStorage.setItem("darkmodeState",g);
-      }
-      if (check.includes("0")) { 
-        element.classList.toggle("dark-mode");
-        g = 1;
-        localStorage.setItem("darkmodeState",g);
-      }
-      if (check.includes("1")) { 
-        element.classList.toggle("dark-mode");
-        g = 0;
-        localStorage.setItem("darkmodeState",g);
-      }
-  }
   function toggleDarkMode() {
       var element = document.body;
-      var check = localStorage.getItem('darkmodeState')
-      if (check === null) {
-        g = 0;
-        localStorage.setItem("darkmodeState",g);
-      }
-      if (check.includes("0")) { 
-        element.classList.toggle("dark-mode");
-        g = 1;
-        localStorage.setItem("darkmodeState",g);
-      }
-      if (check.includes("1")) { 
-        element.classList.toggle("dark-mode");
-        g = 0;
-        localStorage.setItem("darkmodeState",g);
-      }
+      element.classList.toggle("dark-mode");
     } 
 </script>
