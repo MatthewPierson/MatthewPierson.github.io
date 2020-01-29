@@ -32,7 +32,7 @@
 		<key>12.</key>
 		<string>YES</string>
 	</dict>
-	<key>iPhone7,1</key>
+	<key>NO SUPPORT iPhone7,1</key>
 	<dict>
 		<key>8.</key>
 		<false/>
@@ -45,7 +45,7 @@
 		<key>12.</key>
 		<true/>
 	</dict>
-	<key>iPhone7,2</key>
+	<key>NO SUPPORT iPhone7,2</key>
 	<dict>
 		<key>8.</key>
 		<false/>
@@ -58,7 +58,7 @@
 		<key>12.</key>
 		<true/>
 	</dict>
-	<key>iPhone8,1</key>
+	<key>NO SUPPORT iPhone8,1</key>
 	<dict>
 		<key>9.</key>
 		<false/>
@@ -71,7 +71,7 @@
 		<key>13.</key>
 		<true/>
 	</dict>
-	<key>iPhone8,2</key>
+	<key>NO SUPPORT iPhone8,2</key>
 	<dict>
 		<key>9.</key>
 		<false/>
@@ -95,7 +95,7 @@
 		<key>13.</key>
 		<true/>
 	</dict>
-	<key>iPhone9,2</key>
+	<key>NO SUPPORT iPhone9,2</key>
 	<dict>
 		<key>10.</key>
 		<false/>
