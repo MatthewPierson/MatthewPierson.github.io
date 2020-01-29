@@ -43,7 +43,40 @@
 		<key>13.x</key>
 		<true/>
 	</dict>
-	<key>7</key>
+	<key>iPhone9,1</key>
+	<dict>
+		<key>10.x</key>
+		<false/>
+		<key>11.x</key>
+		<false/>
+		<key>12.x</key>
+		<false/>
+		<key>13.x</key>
+		<true/>
+	</dict>
+	<key>iPhone9,2</key>
+	<dict>
+		<key>10.x</key>
+		<false/>
+		<key>11.x</key>
+		<false/>
+		<key>12.x</key>
+		<false/>
+		<key>13.x</key>
+		<true/>
+	</dict>
+	<key>iPhone9,3</key>
+	<dict>
+		<key>10.x</key>
+		<false/>
+		<key>11.x</key>
+		<false/>
+		<key>12.x</key>
+		<false/>
+		<key>13.x</key>
+		<true/>
+	</dict>
+	<key>iPhone9,4</key>
 	<dict>
 		<key>10.x</key>
 		<false/>
