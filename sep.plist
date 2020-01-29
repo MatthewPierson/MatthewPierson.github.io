@@ -4,105 +4,105 @@
 <dict>
 	<key>5s</key>
 	<dict>
-		<key>7.x</key>
+		<key>7.</key>
 		<false/>
-		<key>8.x</key>
+		<key>8.</key>
 		<false/>
-		<key>9.x</key>
+		<key>9.</key>
 		<false/>
-		<key>10.x</key>
+		<key>10.</key>
 		<true/>
-		<key>11.x</key>
+		<key>11.</key>
 		<string>YES</string>
-		<key>12.x</key>
+		<key>12.</key>
 		<string>YES</string>
 	</dict>
 	<key>6</key>
 	<dict>
-		<key>8.x</key>
+		<key>8.</key>
 		<false/>
-		<key>9.x</key>
+		<key>9.</key>
 		<false/>
-		<key>10.x</key>
+		<key>10.</key>
 		<false/>
-		<key>11.x</key>
+		<key>11.</key>
 		<true/>
-		<key>12.x</key>
+		<key>12.</key>
 		<true/>
 	</dict>
 	<key>6s</key>
 	<dict>
-		<key>9.x</key>
+		<key>9.</key>
 		<false/>
-		<key>10.x</key>
+		<key>10.</key>
 		<false/>
-		<key>11.x</key>
+		<key>11.</key>
 		<false/>
-		<key>12.x</key>
+		<key>12.</key>
 		<false/>
-		<key>13.x</key>
+		<key>13.</key>
 		<true/>
 	</dict>
 	<key>iPhone9,1</key>
 	<dict>
-		<key>10.x</key>
+		<key>10.</key>
 		<false/>
-		<key>11.x</key>
+		<key>11.</key>
 		<false/>
-		<key>12.x</key>
+		<key>12.</key>
 		<false/>
-		<key>13.x</key>
+		<key>13.</key>
 		<true/>
 	</dict>
 	<key>iPhone9,2</key>
 	<dict>
-		<key>10.x</key>
+		<key>10.</key>
 		<false/>
-		<key>11.x</key>
+		<key>11.</key>
 		<false/>
-		<key>12.x</key>
+		<key>12.</key>
 		<false/>
-		<key>13.x</key>
+		<key>13.</key>
 		<true/>
 	</dict>
 	<key>iPhone9,3</key>
 	<dict>
-		<key>10.x</key>
+		<key>10.</key>
 		<false/>
-		<key>11.x</key>
+		<key>11.</key>
 		<false/>
-		<key>12.x</key>
+		<key>12.</key>
 		<false/>
-		<key>13.x</key>
+		<key>13.</key>
 		<true/>
 	</dict>
 	<key>iPhone9,4</key>
 	<dict>
-		<key>10.x</key>
+		<key>10.</key>
 		<false/>
-		<key>11.x</key>
+		<key>11.</key>
 		<false/>
-		<key>12.x</key>
+		<key>12.</key>
 		<false/>
-		<key>13.x</key>
+		<key>13.</key>
 		<true/>
 	</dict>
 	<key>8</key>
 	<dict>
-		<key>11.x</key>
+		<key>11.</key>
 		<false/>
-		<key>12.x</key>
+		<key>12.</key>
 		<false/>
-		<key>13.x</key>
+		<key>13.</key>
 		<true/>
 	</dict>
 	<key>x</key>
 	<dict>
-		<key>11.x</key>
+		<key>11.</key>
 		<false/>
-		<key>12.x</key>
+		<key>12.</key>
 		<false/>
-		<key>13.x</key>
+		<key>13.</key>
 		<true/>
 	</dict>
 </dict>
