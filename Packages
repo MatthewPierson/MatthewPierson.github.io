@@ -1,6 +1,6 @@
 Package: com.moski.SuccessionDown 
 Name: SuccessionDown 
-Version: 1.0-b1 
+Version: 1.0 
 Architecture: iphoneos-arm 
 Description: Tether downgrade iOS on device
 Maintainer: Samg_is_a_Ninja, Moski 
