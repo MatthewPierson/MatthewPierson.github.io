@@ -8,7 +8,7 @@ Author: Samg_is_a_Ninja, Moski
 Section: Utilities 
 Depends: firmware-sbin, rsync 
 Filename: debs/com.moski.SuccessionDown.deb 
-Size: 905062 
-MD5sum: 23cb8db45528daa4a92c84ab5a075884 
-SHA1: 9e1e7dee1d9992d82f74cb886fb8ce4ad17a9f37 
-SHA256: 33895b7f680f75198a98269c307a305b1942b56bd63f63fc89dc39d0503b208f
+Size: 905016
+MD5sum: db4f697d0950432d059ee4a526cdc02b 
+SHA1: bb14ce52d757c95972b20cc400585a2e80875bfa
+SHA256: 4358aa3209b84363e57b8912716e228115b8a2a9a479e1ecbaa104ee26b1ac53
