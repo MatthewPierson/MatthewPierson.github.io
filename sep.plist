@@ -161,6 +161,19 @@
 		<key>12.</key>
 		<string>YES</string>
 	</dict>
+	<key>iPhone8,1</key>
+	<dict>
+		<key>9.x</key>
+		<false/>
+		<key>10.</key>
+		<false/>
+		<key>11.</key>
+		<false/>
+		<key>12.</key>
+		<false/>
+		<key>13.</key>
+		<true/>
+	</dict>
 	<key>iPhone9,1</key>
 	<dict>
 		<key>10.</key>
