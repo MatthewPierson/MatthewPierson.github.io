@@ -2,36 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>iPhone6,1</key>
-	<dict>
-		<key>7.</key>
-		<false/>
-		<key>8.</key>
-		<false/>
-		<key>9.</key>
-		<false/>
-		<key>10.</key>
-		<true/>
-		<key>11.</key>
-		<string>YES</string>
-		<key>12.</key>
-		<string>YES</string>
-	</dict>
-	<key>iPhone6,2</key>
-	<dict>
-		<key>7.</key>
-		<false/>
-		<key>8.</key>
-		<false/>
-		<key>9.</key>
-		<false/>
-		<key>10.</key>
-		<true/>
-		<key>11.</key>
-		<string>YES</string>
-		<key>12.</key>
-		<string>YES</string>
-	</dict>
 	<key>iPad4,1</key>
 	<dict>
 		<key>7.</key>
@@ -161,9 +131,9 @@
 		<key>12.</key>
 		<string>YES</string>
 	</dict>
-	<key>iPhone8,1</key>
+	<key>iPad5,1</key>
 	<dict>
-		<key>9.x</key>
+		<key>9.</key>
 		<false/>
 		<key>10.</key>
 		<false/>
@@ -174,33 +144,102 @@
 		<key>13.</key>
 		<true/>
 	</dict>
-	<key>iPhone7,1</key>
+	<key>iPad5,2</key>
 	<dict>
-		<key>8.x</key>
-		<false/>
-		<key>9.x</key>
+		<key>9.</key>
 		<false/>
 		<key>10.</key>
 		<false/>
 		<key>11.</key>
-		<true/>
+		<false/>
 		<key>12.</key>
+		<false/>
+		<key>13.</key>
 		<true/>
 	</dict>
-	<key>iPhone7,2</key>
+	<key>iPad5,3</key>
 	<dict>
-		<key>8.x</key>
+		<key>8.</key>
 		<false/>
-		<key>9.x</key>
+		<key>9.</key>
 		<false/>
 		<key>10.</key>
 		<false/>
 		<key>11.</key>
-		<true/>
+		<false/>
 		<key>12.</key>
+		<false/>
+		<key>13.</key>
 		<true/>
 	</dict>
-	<key>iPhone9,1</key>
+	<key>iPad5,4</key>
+	<dict>
+		<key>8.</key>
+		<false/>
+		<key>9.</key>
+		<false/>
+		<key>10.</key>
+		<false/>
+		<key>11.</key>
+		<false/>
+		<key>12.</key>
+		<false/>
+		<key>13.</key>
+		<true/>
+	</dict>
+	<key>iPad6,3</key>
+	<dict>
+		<key>9.</key>
+		<false/>
+		<key>10.</key>
+		<false/>
+		<key>11.</key>
+		<false/>
+		<key>12.</key>
+		<false/>
+		<key>13.</key>
+		<true/>
+	</dict>
+	<key>iPad6,4</key>
+	<dict>
+		<key>9.</key>
+		<false/>
+		<key>10.</key>
+		<false/>
+		<key>11.</key>
+		<false/>
+		<key>12.</key>
+		<false/>
+		<key>13.</key>
+		<true/>
+	</dict>
+	<key>iPad6,7</key>
+	<dict>
+		<key>9.</key>
+		<false/>
+		<key>10.</key>
+		<false/>
+		<key>11.</key>
+		<false/>
+		<key>12.</key>
+		<false/>
+		<key>13.</key>
+		<true/>
+	</dict>
+	<key>iPad6,8</key>
+	<dict>
+		<key>9.</key>
+		<false/>
+		<key>10.</key>
+		<false/>
+		<key>11.</key>
+		<false/>
+		<key>12.</key>
+		<false/>
+		<key>13.</key>
+		<true/>
+	</dict>
+	<key>iPad6,11</key>
 	<dict>
 		<key>10.</key>
 		<false/>
@@ -211,29 +250,7 @@
 		<key>13.</key>
 		<true/>
 	</dict>
-	<key>iPhone9,2</key>
-	<dict>
-		<key>10.</key>
-		<false/>
-		<key>11.</key>
-		<false/>
-		<key>12.</key>
-		<false/>
-		<key>13.</key>
-		<true/>
-	</dict>
-	<key>iPhone9,3</key>
-	<dict>
-		<key>10.</key>
-		<false/>
-		<key>11.</key>
-		<false/>
-		<key>12.</key>
-		<false/>
-		<key>13.</key>
-		<true/>
-	</dict>
-	<key>iPhone9,4</key>
+	<key>iPad6,12</key>
 	<dict>
 		<key>10.</key>
 		<false/>
@@ -310,8 +327,78 @@
 		<key>13.</key>
 		<true/>
 	</dict>
-	<key>iPhone10,1</key>
+	<key>iPad7,11</key>
 	<dict>
+		<key>13.</key>
+		<true/>
+	</dict>
+	<key>iPad7,12</key>
+	<dict>
+		<key>13.</key>
+		<true/>
+	</dict>
+	<key>iPhone6,1</key>
+	<dict>
+		<key>7.</key>
+		<false/>
+		<key>8.</key>
+		<false/>
+		<key>9.</key>
+		<false/>
+		<key>10.</key>
+		<true/>
+		<key>11.</key>
+		<string>YES</string>
+		<key>12.</key>
+		<string>YES</string>
+	</dict>
+	<key>iPhone6,2</key>
+	<dict>
+		<key>7.</key>
+		<false/>
+		<key>8.</key>
+		<false/>
+		<key>9.</key>
+		<false/>
+		<key>10.</key>
+		<true/>
+		<key>11.</key>
+		<string>YES</string>
+		<key>12.</key>
+		<string>YES</string>
+	</dict>
+	<key>iPhone7,1</key>
+	<dict>
+		<key>8.x</key>
+		<false/>
+		<key>9.x</key>
+		<false/>
+		<key>10.</key>
+		<false/>
+		<key>11.</key>
+		<true/>
+		<key>12.</key>
+		<true/>
+	</dict>
+	<key>iPhone7,2</key>
+	<dict>
+		<key>8.x</key>
+		<false/>
+		<key>9.x</key>
+		<false/>
+		<key>10.</key>
+		<false/>
+		<key>11.</key>
+		<true/>
+		<key>12.</key>
+		<true/>
+	</dict>
+	<key>iPhone8,1</key>
+	<dict>
+		<key>9.x</key>
+		<false/>
+		<key>10.</key>
+		<false/>
 		<key>11.</key>
 		<false/>
 		<key>12.</key>
@@ -319,7 +406,64 @@
 		<key>13.</key>
 		<true/>
 	</dict>
-	<key>iPhone10,4</key>
+	<key>iPhone8,2</key>
+	<dict>
+		<key>9.x</key>
+		<false/>
+		<key>10.</key>
+		<false/>
+		<key>11.</key>
+		<false/>
+		<key>12.</key>
+		<false/>
+		<key>13.</key>
+		<true/>
+	</dict>
+	<key>iPhone9,1</key>
+	<dict>
+		<key>10.</key>
+		<false/>
+		<key>11.</key>
+		<false/>
+		<key>12.</key>
+		<false/>
+		<key>13.</key>
+		<true/>
+	</dict>
+	<key>iPhone9,2</key>
+	<dict>
+		<key>10.</key>
+		<false/>
+		<key>11.</key>
+		<false/>
+		<key>12.</key>
+		<false/>
+		<key>13.</key>
+		<true/>
+	</dict>
+	<key>iPhone9,3</key>
+	<dict>
+		<key>10.</key>
+		<false/>
+		<key>11.</key>
+		<false/>
+		<key>12.</key>
+		<false/>
+		<key>13.</key>
+		<true/>
+	</dict>
+	<key>iPhone9,4</key>
+	<dict>
+		<key>10.</key>
+		<false/>
+		<key>11.</key>
+		<false/>
+		<key>12.</key>
+		<false/>
+		<key>13.</key>
+		<true/>
+	</dict>
+	<key>iPhone10,1</key>
 	<dict>
 		<key>11.</key>
 		<false/>
@@ -337,7 +481,7 @@
 		<key>13.</key>
 		<true/>
 	</dict>
-	<key>iPhone10,5</key>
+	<key>iPhone10,3</key>
 	<dict>
 		<key>11.</key>
 		<false/>
@@ -346,7 +490,16 @@
 		<key>13.</key>
 		<true/>
 	</dict>
-	<key>iPhone10,3</key>
+	<key>iPhone10,4</key>
+	<dict>
+		<key>11.</key>
+		<false/>
+		<key>12.</key>
+		<false/>
+		<key>13.</key>
+		<true/>
+	</dict>
+	<key>iPhone10,5</key>
 	<dict>
 		<key>11.</key>
 		<false/>
@@ -361,16 +514,6 @@
 		<false/>
 		<key>12.</key>
 		<false/>
-		<key>13.</key>
-		<true/>
-	</dict>
-	<key>iPad7,11</key>
-	<dict>
-		<key>13.</key>
-		<true/>
-	</dict>
-	<key>iPad7,12</key>
-	<dict>
 		<key>13.</key>
 		<true/>
 	</dict>
