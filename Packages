@@ -1,6 +1,6 @@
 Package: com.moski.SuccessionDown 
 Name: SuccessionDown 
-Version: 0.1.4
+Version: 0.1.5
 Architecture: iphoneos-arm 
 Description: Tether downgrade iOS on device
 Maintainer: Samg_is_a_Ninja, Moski 
@@ -8,7 +8,7 @@ Author: Samg_is_a_Ninja, Moski
 Section: Utilities 
 Depends: firmware-sbin, rsync 
 Filename: debs/com.moski.SuccessionDown.deb 
-Size: 909572
-MD5sum: aec6a19662f92c77931813008c76eccc
-SHA1: 17ac640f65c7d7672a35a594978f2e9887d274a5
-SHA256: fcc0e5c4738aab0f71a3090543f445fbb110029521abe0700be5d1ce42393782
+Size: 909790
+MD5sum: 703c8d93464f01ab7ddb3cc05fecc154
+SHA1: 981f39e27d0184303891ffd2ef212efbbc04a330
+SHA256: f729432c22657d0e59d6425bae514393f324afbe0c09687eb104ff717bc0fe51
