@@ -13,17 +13,31 @@
 					<key>url</key>
 					<string>https://matthewpierson.github.io/test/cringe.ipa</string>
 				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>url</key>
+					<string>https://matthewpierson.github.io/img/cutie.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>url</key>
+					<string>https://matthewpierson.github.io/img/cutie.png</string>
+				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
 				<string>com.moski.cringe</string>
 				<key>bundle-version</key>
-				<string>1.0 (1)</string>
+				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
+				<key>platform-identifier</key>
+				<string>com.apple.platform.iphoneos</string>
 				<key>title</key>
-				<string>Cringe</string>
+				<string>cringe</string>
 			</dict>
 		</dict>
 	</array>
