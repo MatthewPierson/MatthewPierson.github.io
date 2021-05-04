@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://matthewpierson.github.io/test/cringe.ipa</string>
+					<string>https://matthewpierson.github.io/test/PhoenixNonce.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -29,15 +29,15 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.moski.cringe</string>
+				<string>net.siguza.PhoenixNonces</string>
 				<key>bundle-version</key>
-				<string>1.0</string>
+				<string>1.1</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>platform-identifier</key>
 				<string>com.apple.platform.iphoneos</string>
 				<key>title</key>
-				<string>cringe</string>
+				<string>PhoenixNonce</string>
 			</dict>
 		</dict>
 	</array>
