@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://matthewpierson.github.io/test/cringe.ipa</string>
+					<string>https://matthewpierson.github.io/test/test.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -29,7 +29,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.moski.cringe</string>
+				<string>com.lunariasoftware.WKWebViewExampless</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
@@ -37,7 +37,7 @@
 				<key>platform-identifier</key>
 				<string>com.apple.platform.iphoneos</string>
 				<key>title</key>
-				<string>cringe</string>
+				<string>WKWebViewExample</string>
 			</dict>
 		</dict>
 	</array>
