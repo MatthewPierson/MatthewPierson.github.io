@@ -11,33 +11,31 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://matthewpierson.github.io/test/sock_port.ipa</string>
+					<string>https://matthewpierson.github.io/test/Odyssey.ipa/Odyssey.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://matthewpierson.github.io/img/cutie.png</string>
+					<string>https://matthewpierson.github.io/test/Odyssey.ipa/AppIcon60x60@2x.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://matthewpierson.github.io/img/cutie.png</string>
+					<string>https://matthewpierson.github.io/test/Odyssey.ipa/AppIcon60x60@2x.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.jakeashacks.sock-portj</string>
+				<string>org.coolstar.odyssey</string>
 				<key>bundle-version</key>
-				<string>1.0</string>
+				<string>1.3.3 (1)</string>
 				<key>kind</key>
 				<string>software</string>
-				<key>platform-identifier</key>
-				<string>com.apple.platform.iphoneos</string>
 				<key>title</key>
-				<string>sock_port</string>
+				<string></string>
 			</dict>
 		</dict>
 	</array>
